@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.app-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #424242;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.book-list {
+  padding: 0;
+}
+
+.add-book-container{
+  color: #ffffff;
+}
+
+.book-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin: 12px 0;
+  background-color: #000000;
+  border: 1px solid #616161;
+  border-radius: 4px;
+}
+
+.action-button {
+  padding: 8px;
+  margin-left: 8px;
+  cursor: pointer;
+  border: 1px solid #8b0000; /* Maroon border color */
+  border-radius: 4px;
+  color: #8b0000; /* Maroon text color */
+  background-color: transparent;
+}
+
+.add-book-container,
+.update-book-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-button,
+.update-button {
+  padding: 8px;
+  cursor: pointer;
+  border: 1px solid #8b0000; /* Maroon border color */
+  border-radius: 4px;
+  color: #8b0000; /* Maroon text color */
+  background-color: transparent;
+}
+
+input {
+  flex-grow: 1;
+  padding: 8px;
+  margin-right: 8px;
+  border: 1px solid #757575;
+  border-radius: 4px;
+  background-color: #424242; /* Dark theme input background color */
+  color: #ffffff;
+}
+
+.book-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin: 12px 0;
+  background-color: #000000;
+  /* border: 1px solid #616161; */
+  border-radius: 14px;
+}
+
+/* ... (existing styles) */
+
+.custom-input {
+  color: #ffffff; /* Your desired text color, e.g., pink */
+  background-color: #292929;
+  border: 1px solid #757575;
+  border-radius: 14px;
+  padding: 8px;
+}
+
+/* ... (existing styles) */
+
+
+
+/* Customize Material-UI styles */
+.MuiTypography-root {
+  margin-bottom: 16px;
+}
+
+.MuiList-root {
+  padding: 0;
+}
+
+.MuiButton-root {
+  text-transform: none;
+  background-color: #8b0000;
+}
+
+.MuiOutlinedInput-root {
+  border-radius: 4px;
+}
+
+.MuiOutlinedInput-input {
+  color: #ffffff;
+}
+
+.MuiInputLabel-outlined {
+  color: #ffffff;
+}
+
+.MuiFormLabel-root.Mui-focused {
+  color: #8b0000; /* Maroon color when input is focused */
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: #757575; /* Dark theme input border color */
+}
+
+.MuiButton-outlinedPrimary {
+  border-color: #8b0000; /* Maroon border color for Material-UI outlined buttons */
+  color: #8b0000; /* Maroon text color for Material-UI outlined buttons */
+}
